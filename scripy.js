@@ -7,48 +7,64 @@ one();
  // what is the value of a
 
 // // 2.
-// function two() {
-//   let b = 10;
-//   let b = 20;
-// }
-// two();
-// console.log(b); // what is the value of b and why
+function two() {
+  let b = 10;
+  b = 20;
+  console.log(b);
+}
+two();
+ // what is the value of b and why
 
 // // 3.
-// let c;
-// function three() {
-//   c = 25;
-// }
-// three();
-// console.log(c); // what is the value of c and why
+var c;
+function three() {
+  c = 25;
+}
+three();
+console.log(c); // what is the value of c and why
 
-// // 4.
-// function four() {
-//   d = 25;
-// }
-// four();
-// console.log(d); // what is the value of d and why
+// 4.
+function four() {
+ var d = 25;
+ console.log(d);
+}
+four();
+ // what is the value of d and why
 
 // // 5.
-// let e;
-// function five() {
-//   const greeting = "Hello";
+let e;
+function five() {
+  const greeting = "Hello";
 
-//   function greet() {
-//     let name = "Eddie";
-//     e = `${greeting} ${name}`;
-//   }
-//   greet();
-// }
-// five();
-// console.log(e); // what is the value of e and why
+  function greet() {
+    let name = "Eddie";
+    e = `${greeting} ${name}`;
+  }
+  greet();
+}
+five();
+console.log(e); // what is the value of e and why
 
 // // 6.
-// function six() {
-//   if (true) {
-//     let f = 50;
-//   }
-//   console.log(f); // what is the value of f and why
-// }
+ let f = 50;
+function six() {
+  if (true) {
+  }
+  console.log(f); // what is the value of f and why
+}
+six();
 
-// six();
+
+//E 2
+
+let sentence = ["Hello", "Code", "Your", "Future"];
+let [firstWord,secondWord,thirdWord,fourthWord] = sentence;
+
+// // let firstWord = item[0];
+// // let secondWord = item[1];
+// // let thirdWord = item[2];
+// // let fourthWord = item[3];
+
+console.log(
+  `FirstWord: ${firstWord}, SecondWord: ${secondWord}, ThirdWord: ${thirdWord}, FourthWord: ${fourthWord},`
+);
