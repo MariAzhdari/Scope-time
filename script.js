@@ -91,6 +91,7 @@ let citiesByPopulation = [
 // Assign variables using array destructuring on this line
 let[london, birmingham, glasgow, manchester] = citiesByPopulation;
 
+
 console.log(`${london.name} population is ${london.population}`);
 console.log(`${birmingham.name} population is ${birmingham.population}`);
 console.log(`${glasgow.name} population is ${glasgow.population}`);
